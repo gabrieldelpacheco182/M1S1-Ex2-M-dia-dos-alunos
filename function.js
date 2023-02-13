@@ -1,3 +1,6 @@
+const mostrar = document.querySelector(".mostrar")
+mostrar.textContent="Resultado"
+
 let students = [
     {
         name: 'Gabriel',
@@ -42,3 +45,4 @@ let students = [
 ];
 let average = (students[0].mathematics + students[1].mathematics + students[2].mathematics + students[3].mathematics + students[4].mathematics)/4;
 console.log(average);
+mostrar.textContent=average
